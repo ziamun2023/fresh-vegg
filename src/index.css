@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* main */
+
+.maincolor{
+  background-color: rgb(118,167,19);
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+
+  .primary-font{
+    font-family: 'Dosis', sans-serif;
+  }
