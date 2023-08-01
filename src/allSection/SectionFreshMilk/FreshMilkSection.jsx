@@ -10,7 +10,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 AOS.init();
 const FreshMilkSection = () => {
     return (
-        <div className='relative'>
+        <div className='hidden lg:block relative'>
 
             <p className='primary-font text-[40px] absolute top-32 left-20 '>Pure and Fresh Milk <br /> Straight from the Farm to Your Table</p>
             <p className='primary-font text-[40px] absolute top-[300px] text-green-600 bg-gray-200 px-4 rounded-full hover:bg-black duration-500 left-[400px] '> order now</p>

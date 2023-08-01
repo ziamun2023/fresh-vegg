@@ -4,12 +4,12 @@ import AnimatedCarts from '../../AllComponent/resuableComponenet/AnimatedCarts';
 
 const CategorySection = () => {
     return (
-        <div className=' h-[700px]  bg-[rgb(243,244,245)]'>
+        <div className='lg:h-[700px] h-[2000px]  bg-[rgb(243,244,245)]'>
   
 
  <HeaderAndDetails heading={"categories"} subtitle={"We work with the farmers hands on hands"}/>
 
-      <div className='lg:grid my-20 lg:grid-cols-4 justify-items-center gap-10 mx-20'>
+      <div className='lg:grid my-20 lg:grid-cols-4 justify-items-center gap-10 ms-10 lg:mx-20'>
   <AnimatedCarts title={"N"} Maintitle={"Nuts"} subtitle={"Have the best dry food from our store"}/>
   <AnimatedCarts title={"V"} Maintitle={"Vegetable"} subtitle={"Hand picked vegetable and tested for insects"}/>
   <AnimatedCarts title={"M"} Maintitle={"Meat"} subtitle={"Fresh and 100 percent authentic meat"}/>

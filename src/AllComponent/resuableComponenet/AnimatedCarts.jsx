@@ -4,7 +4,7 @@ import { BsArrowRightShort } from 'react-icons/Bs';
             
 const AnimatedCarts = ({img,title,subtitle,Maintitle,color}) => {
     return (
-        <div className='parents relative group w-[300px] h-[430px] hover:pt-0  pt-4 bg-white transition-all  border-gray-800 group-hover:'>
+        <div className='parents relative group w-[300px] h-[430px] hover:pt-0  pt-4 bg-white transition-all  border-gray-800 '>
             <div className='child  child  group-hover:w-[298px]  my-auto  group-hover:border-green-700 group-hover:h-[430px]  group-hover:border-[4px] mx-auto duration-150  w-[250px] h-[400px] border-[1px] border-gray-800'>
         
 
