@@ -9,7 +9,7 @@ AOS.init();
 import { BsArrowRightShort } from 'react-icons/Bs';
 const Section2 = () => {
     return (
-        <div  className='flex justify-center gap-10 mx-10 lg:mx-0'>
+        <div  className=' flex  justify-center gap-10 mx-10 lg:mx-0'>
             <div  data-aos-offset="200"
     data-aos-delay="50"
     data-aos-duration="1000" data-aos="fade-up" className='bg-[rgb(253,247,233)] section2main h-[220px] grid grid-cols-2 px-5 py-5 w-[500px] hover:shadow-2xl relative duration-700'>

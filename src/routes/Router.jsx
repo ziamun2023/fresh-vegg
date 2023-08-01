@@ -13,7 +13,7 @@ import Home from "../pages/Home/Home";
       element: <MainLayout></MainLayout>,
       children:[
         {
-            path:'/home',
+            path:'/',
             element:<Home></Home>
         }
       ]
