@@ -4,7 +4,7 @@ import logo from "../../assets/Green And White Modern Company Circle  Logo .png"
 const Navbar = () => {
  
     return (
-        <div className=" grid grid-cols-3 mx-auto justify-items-center">
+        <div className="hidden  lg:grid grid-cols-3 mx-auto justify-items-center">
           <div className='flex gap-10 tracking-wider'>
 <div className='primary-font text-[20px] my-auto  text-black'><a>Home</a></div>
     <div className='primary-font text-[20px] my-auto  text-black'><a>About</a></div>

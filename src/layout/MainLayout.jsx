@@ -10,7 +10,7 @@ const MainLayout = () => {
     return (
         <div>
             <NavTop/>
-            <Navbar/>
+     <Navbar/>
             <  AnimatedCursor   innerSize={17}
       outerSize={8}
       color='118, 167, 19'
