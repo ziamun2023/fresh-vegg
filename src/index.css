@@ -28,3 +28,42 @@
     from {transform: translateY(0px);}
     to {transform: translateY(40px);}
   }
+
+
+ 
+
+.section2main:hover .section2img{
+transform: scale(1.10);
+transition: opacity 0.3s ease-in-out,  0.4s ease-in-out;
+
+
+}
+
+.section2main .section2img {
+  transform: scale(1);
+  transition: opacity 0.3s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.button{
+width: 140px;
+border-radius: 30px;
+}
+.buttonChild{
+
+
+}
+.childarrow{
+  display: none;
+
+  margin:auto ;
+}
+
+.button:hover .childarrow{
+ display: block;
+ transition-duration: 400ms;
+}
+.button:hover {
+  width: 170px;
+  transition-duration: 400ms;
+  
+}
