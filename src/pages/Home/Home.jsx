@@ -13,6 +13,7 @@ import CategorySection from '../../allSection/CategorySection/CategorySection';
 import FreshMilkSection from '../../allSection/SectionFreshMilk/FreshMilkSection';
 import AllFoodProducts from '../../allSection/Allproducts/AllFoodProducts';
 import Team from '../../allSection/TeamMember/Team';
+import Special from '../../allSection/SpecialProduct/Special';
 
 const Home = () => {
     return (
@@ -23,8 +24,11 @@ const Home = () => {
       <ReusableSection banner={section3Banner} headerText={"about us"} headTitle={"Fresh from Nature's Bounty and Deliciously Organic Farm to Table"} firstPara={"Organic Foods and Café is a family run company founded in 2004 that runs organic supermarkets"} secondPara={"Organic means growing our food, which is to nourish us, without chemical aids during the growing process such as fertilisers, pesticides, fungcides, herbacides, larbicides etc"}  icon1={handpicked} icon2={natural} iconTitle1={"Hand picked food"}iconTitle2={100% natural}   />
       <CategorySection/>
   <FreshMilkSection/>
+
   <AllFoodProducts/>
+
   <Team/>
+  <Special/>
             
         </div>
     );
