@@ -1,5 +1,5 @@
 import React from 'react';
-
+import field from "../../assets/GreenField.png"
 const Footer = () => {
     return (
         <footer className="footer p-10 bg-neutral text-neutral-content">
@@ -23,6 +23,7 @@ const Footer = () => {
     <a className="link link-hover">Privacy policy</a>
     <a className="link link-hover">Cookie policy</a>
   </div>
+  <img src={field} alt="" />
 </footer>
     );
 };

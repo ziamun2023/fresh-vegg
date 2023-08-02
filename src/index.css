@@ -84,3 +84,23 @@ border-radius: 30px;
 
 }
  */
+.offer{
+  background-image: url(./assets/eatveg.jpg);
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+  
+}
+
+.backgroundABout{
+ background-image: url(./assets/aboutBackGround.png);
+}
+/* .shape1{
+  background-image: url(..);
+} */
