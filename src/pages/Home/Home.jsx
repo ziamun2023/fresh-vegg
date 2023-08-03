@@ -17,11 +17,18 @@ import Special from '../../allSection/SpecialProduct/Special';
 import SectionOffer from '../../allSection/SectionOffer/SectionOffer';
 import BlogSection from '../../allSection/Blog/BlogSection';
 import MainBanner from '../../BannerSection/MainBanner';
+import {Scrollbar} from 'smooth-scrollbar-react';
+
 
 const Home = () => {
+   
+  
     return (
-        <div className='text-black'>
-       <MainBanner/>
+      <div>
+      
+         <div className='text-black'>
+          
+            <MainBanner/>
         <Banner2/>
         <Section2/>
       <ReusableSection banner={section3Banner} headerText={"about us"} headTitle={"Fresh from Nature's Bounty and Deliciously Organic Farm to Table"} firstPara={"Organic Foods and Café is a family run company founded in 2004 that runs organic supermarkets"} secondPara={"Organic means growing our food, which is to nourish us, without chemical aids during the growing process such as fertilisers, pesticides, fungcides, herbacides, larbicides etc"}  icon1={handpicked} icon2={natural} iconTitle1={"Hand picked food"}iconTitle2={100% natural}   />
@@ -37,8 +44,13 @@ const Home = () => {
   <Special/>
   <BlogSection/>
   <Special/>
+
+    
+      
             
         </div>
+
+      </div>
     );
 };
 

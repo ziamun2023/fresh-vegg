@@ -20,6 +20,8 @@
     "react-parallax": "^3.5.1",
     "react-router-dom": "^6.14.2",
     "react-scroll-parallax": "^3.4.2",
+    "react-tabs": "^6.0.2",
+    "smooth-scrollbar-react": "^2.4.1",
     "sort-by": "^1.2.0",
     "swiper": "^10.1.0"
   },

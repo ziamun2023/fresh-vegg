@@ -1,6 +1,6 @@
 import React from 'react';
 
-import img1 from "../assets/banner2background.png"
+ import img1 from "../assets/veg3.png"
 import img2 from "../assets/bannertomato.png"
 import avcoda from "../assets/banner3BackgroundElement.png"
 import leaf1 from "../assets/leaf1.png"

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsArrowRightShort } from 'react-icons/Bs';
-  
+
             
 const AnimatedCarts = ({img,title,subtitle,Maintitle,color,image}) => {
     return (
