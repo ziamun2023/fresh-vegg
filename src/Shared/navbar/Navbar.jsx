@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div className="hidden  lg:grid grid-cols-3 mx-auto justify-items-center">
           <div className='flex gap-10 tracking-wider'>
-<div className='primary-font text-[20px] my-auto  text-black'><a>Home</a></div>
+<div className='primary-font text-[20px] my-auto  text-black'><Link to='/'><a>Home</a></Link></div>
    <div className='primary-font text-[20px] my-auto  text-black'><Link to='/about'> <a>About</a></Link></div>
     <div className='primary-font text-[20px] my-auto  text-black'><a>Shop</a></div>
     <div className='primary-font text-[20px] my-auto  text-black'><a>pages</a></div>

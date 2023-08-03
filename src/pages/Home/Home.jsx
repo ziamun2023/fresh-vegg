@@ -15,6 +15,7 @@ import AllFoodProducts from '../../allSection/Allproducts/AllFoodProducts';
 import Team from '../../allSection/TeamMember/Team';
 import Special from '../../allSection/SpecialProduct/Special';
 import SectionOffer from '../../allSection/SectionOffer/SectionOffer';
+import BlogSection from '../../allSection/Blog/BlogSection';
 
 const Home = () => {
     return (
@@ -32,6 +33,8 @@ const Home = () => {
   <SectionOffer/>
 
   <Team/>
+  <Special/>
+  <BlogSection/>
   <Special/>
             
         </div>

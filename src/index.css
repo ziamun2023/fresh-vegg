@@ -86,7 +86,7 @@ border-radius: 30px;
  */
 .offer{
   background-image: url(./assets/eatveg.jpg);
-  min-height: 500px;
+  min-height: 300px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -104,3 +104,10 @@ border-radius: 30px;
 /* .shape1{
   background-image: url(..);
 } */
+
+.reusableCart2{
+ 
+
+
+
+}
