@@ -1,6 +1,7 @@
 import React from 'react';
 import Heading from '../../AllComponent/resuableComponenet/Heading';
 import ReuseableProductCart from '../../AllComponent/resuableComponenet/ReuseableProductCart';
+import AnimatedButton from '../../AllComponent/resuableComponenet/AnimatedButton';
 
 const AllFoodProducts = () => {
     return (
@@ -13,6 +14,7 @@ const AllFoodProducts = () => {
   
 
 </div>
+<AnimatedButton text={'show more'}/>
             
         </div>
     );

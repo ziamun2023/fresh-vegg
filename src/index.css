@@ -111,3 +111,13 @@ border-radius: 30px;
 
 
 }
+
+.mySwiper {
+  
+  height: 600px;
+  background-color: rgb(243,244,245);
+}
+
+.mySwiperSpecial{
+  height: 600px;
+}
